@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.codepath.advancedcustomviewslecture.MyLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F00"
+        android:text="This is the very first item."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#0F0"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="Top and bottom margins, as well as top and bottom padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="#00F"
+        android:text="This item is the second, and has left margins"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#F00"
+        android:text="I have top and bottom margins"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0F0"
+        android:text="Hey there"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00F"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="Top and bottom padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F00"
+        android:text="I don't get any padding or margins :("/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00F"
+        android:text="The very last item"/>
+
+</com.codepath.advancedcustomviewslecture.MyLinearLayout>
